@@ -37,7 +37,7 @@ GPX文件是一种通用的地图信息文件，最简单的GPX文件仅包含�
 |   设备   |                           提取方式                           |
 | :------: | :----------------------------------------------------------: |
 | 运动相机 | 目前市面上带GPS功能的运动相机基本都可以导出GPX文件，具体方法可以自行查找，或者寻求本文编者帮助。 |
-| 运动手表 | 请参考知乎文章：[运动手表GPS轨迹文件导出方法](https://zhuanlan.zhihu.com/p/114283607)<br /><img src="D:\Orienteering\orientview\教程文档\figures\运动手表.jpg" alt="运动手表" style="zoom:30%;" /> |
+| 运动手表 | 请参考知乎文章：[运动手表GPS轨迹文件导出方法](https://zhuanlan.zhihu.com/p/114283607)<br /><img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/运动手表.jpg" alt="运动手表" style="zoom:30%;" /> |
 | 智能手机 |      使用GPSLogger软件记录GPS数据，可以直接导出GPX文件       |
 
 #### 2.2 GPX数据处理
@@ -46,11 +46,11 @@ GPX文件是一种通用的地图信息文件，最简单的GPX文件仅包含�
 
 本部分根据参考教程，只需要将路线调整好就可以了，不需要继续做分段等；而后，将路线调整为透明，然后导出为图片：
 
-<img src="D:\Orienteering\orientview\教程文档\figures\调整为透明.png" alt="调整为透明" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/调整为透明.png" alt="调整为透明" style="zoom:60%;" />
 
 <center>调整路线为透明</center>
 
-<img src="D:\Orienteering\orientview\教程文档\figures\导出.jpg" alt="导出" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/导出.jpg" alt="导出" style="zoom:60%;" />
 
 <center>导出为图片</center>
 
@@ -64,7 +64,7 @@ GPX文件是一种通用的地图信息文件，最简单的GPX文件仅包含�
 
 #### 3.1 地图
 
-<img src="D:\Orienteering\orientview\教程文档\figures\地图.jpg" alt="地图" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/地图.jpg" alt="地图" style="zoom:60%;" />
 
 **地图图片文件：**设置地图文件路径；可以直接使用刚刚导出的图片。（此处使用了测试文件中的图片）
 
@@ -76,7 +76,7 @@ GPX文件是一种通用的地图信息文件，最简单的GPX文件仅包含�
 
 #### 3.2 路线
 
-<img src="D:\Orienteering\orientview\教程文档\figures\路线.jpg" alt="路线" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/路线.jpg" alt="路线" style="zoom:60%;" />
 
 **QuickRoute图片文件：**设置刚刚导出的图片的路径；前面已经提到了，导出的图片是带有轨迹数据的，只不过我们设置为透明，看不到而已。（此处使用了测试文件中的图片）
 
@@ -88,7 +88,7 @@ GPX文件是一种通用的地图信息文件，最简单的GPX文件仅包含�
 
 #### 3.3 视频
 
-<img src="D:\Orienteering\orientview\教程文档\figures\视频.jpg" alt="视频" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/视频.jpg" alt="视频" style="zoom:60%;" />
 
 **导入视频文件：**设置视频文件的路径。（此处使用了测试文件中的视频）
 
@@ -98,7 +98,7 @@ GPX文件是一种通用的地图信息文件，最简单的GPX文件仅包含�
 
 #### 3.4 分段
 
-<img src="D:\Orienteering\orientview\教程文档\figures\分段.jpg" alt="分段" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/分段.jpg" alt="分段" style="zoom:60%;" />
 
 **类型：**可以使用绝对值或者相对值；绝对值就是从出发算起到打卡的时间，相对值就是从上一个打卡点算起到本次打卡的时间，也就是我们常说的分段用时。
 
@@ -106,19 +106,19 @@ GPX文件是一种通用的地图信息文件，最简单的GPX文件仅包含�
 
 #### 3.5 窗口
 
-<img src="D:\Orienteering\orientview\教程文档\figures\窗口.jpg" alt="窗口" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/窗口.jpg" alt="窗口" style="zoom:60%;" />
 
 **设置：**这里设置输出视频的宽高，此处给出常用分辨率做参考：4K视频3840x2160，1080P视频1920x1080，720P视频1280x720，480P视频640x480。
 
 #### 3.6 稳定化
 
-<img src="D:\Orienteering\orientview\教程文档\figures\稳定化.jpg" alt="稳定化" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/稳定化.jpg" alt="稳定化" style="zoom:60%;" />
 
 勾选**“启用稳定化”**即可开启稳定化（可以不开启），有两种模式：实时和预处理。若选择实时，则下面无需继续设置。若选择预处理，则需要继续设置下面项目，虽然预处理的稳定效果会好于实时处理，但要求使用者有OpenCV相关知识，故在此不作翻译和介绍，有能力的朋友可以做尝试。
 
 #### 3.7 编码器
 
-<img src="D:\Orienteering\orientview\教程文档\figures\编码.jpg" alt="编码" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/编码.jpg" alt="编码" style="zoom:60%;" />
 
 **输出视频文件：**设置文件输出路径，包括文件名和扩展名。
 
@@ -138,7 +138,7 @@ GPX文件是一种通用的地图信息文件，最简单的GPX文件仅包含�
 
 完成所有设置之后可以先点击“播放”按钮进行预览，左右方向键可以控制视频前进后退；预览完没问题了，点击“编码”按钮开始编码。
 
-<img src="D:\Orienteering\orientview\教程文档\figures\编码开始.jpg" alt="编码开始" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/编码开始.jpg" alt="编码开始" style="zoom:60%;" />
 
 下方三个按钮，从左到右分别是“暂停”，“中止”，“打开”。中间的信息内容分别是“时间”，“帧”，“大小”。
 
@@ -179,11 +179,11 @@ GPX文件是一种通用的地图信息文件，最简单的GPX文件仅包含�
 
 首先在“抽取”页面下，打开原视频，点击“抽取音频1”，等待一两分钟即可在原视频目录下看到一个音频文件。这个就是原视频的音频。
 
-<img src="D:\Orienteering\orientview\教程文档\figures\抽取.jpg" alt="抽取" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/抽取.jpg" alt="抽取" style="zoom:60%;" />
 
 然后在“封装”页面下，打开导出的视频，打开刚才抽取的音频，然后点击“封装”，即可在导出视频的目录下看到一个新生成的视频文件。这个就是带声音的导出视频。
 
-<img src="D:\Orienteering\orientview\教程文档\figures\封装.jpg" alt="封装" style="zoom:60%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/封装.jpg" alt="封装" style="zoom:60%;" />
 
 
 
@@ -219,18 +219,18 @@ GPX文件是一种通用的地图信息文件，最简单的GPX文件仅包含�
 
 感谢冼成彬和蒲小年对本次软件翻译工作的支持，欢迎关注他们的微信公众号：
 
-<img src="D:\Orienteering\orientview\教程文档\figures\定向笔记.jpg" alt="定向笔记" style="zoom:50%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/定向笔记.jpg" alt="定向笔记" style="zoom:50%;" />
 
 <center>定向笔记</center>
 
 
 
-<img src="D:\Orienteering\orientview\教程文档\figures\一个定向boy.jpg" alt="一个定向boy" style="zoom:50%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/一个定向boy.jpg" alt="一个定向boy" style="zoom:50%;" />
 
 <center>一个定向boy</center>
 
 
 
-<img src="D:\Orienteering\orientview\教程文档\figures\喜欢出去玩的水鱼WaterFish.jpg" alt="喜欢出去玩的水鱼WaterFish" style="zoom:10%;" />
+<img src="https://github.com/WaterFishJ/orientview/blob/master/教程文档/figures/喜欢出去玩的水鱼WaterFish.jpg" alt="喜欢出去玩的水鱼WaterFish" style="zoom:10%;" />
 
 <center>编者的微信公众号“喜欢出去玩的水鱼WaterFish”</center>
